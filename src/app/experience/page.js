@@ -1,6 +1,7 @@
 'use client';
 
 import ExperienceItem from '@/components/Experience/Item';
+import TeachingAssistant from '@/components/Experience/TeachingAssistant';
 import data from '@/data/experience.js';
 import { useState } from 'react';
 
@@ -36,7 +37,11 @@ const Experience = () => {
         <div className="flex md:min-w-fit md:w-[20%] flex-row md:flex-col gap-4 pt-2 w-full max-w-full overflow-auto pb-4">
           <ListCompany />
         </div>
-        <ExperienceItem data={expData} />
+        {active === data.length - 1 ? (
+          <TeachingAssistant data={expData} />
+        ) : (
+          <ExperienceItem data={expData} />
+        )}
       </div>
     </main>
   );

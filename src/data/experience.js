@@ -82,6 +82,46 @@ const data = [
     ],
     activities: ['coding', 'responsive', 'api-int', 'bug'],
   },
+  {
+    company: 'Universitas Indonesia',
+    role: 'teaching-assistant',
+    data: [
+      {
+        course:
+          'Teaching Assistant of Enterprise Application Architecture and Programming',
+        date: 'Aug 2022 - Jan 2023',
+        description: [
+          'Provided comprehensive guidance and tutoring to 13 students in weekly programming assignments and a final project combining Flutter and Spring Boot',
+          'Instructed on a wide array of topics including Spring Boot JPA, MVC Concept, REST API, Web Service, Web Security, Thymeleaf, basic and advanced git, deployment using Docker, CI/CD with Docker and Gitlab, and SonarQube',
+        ],
+      },
+      {
+        course: 'Teaching Assistant of Database',
+        date: 'Aug 2021 - Jan 2022',
+        description: [
+          'Instructed, assessed, demonstrated, and crafted lab questions as part of the Database course, utilizing PostgreSQL',
+          'Delivered two-hour weekly sessions on PostgreSQL queries and syntax',
+        ],
+      },
+      {
+        course: 'Teaching Assistant of Platform-based Programming',
+        date: 'Aug 2021 - Jan 2022',
+        description: [
+          'Provided comprehensive guidance and tutoring to 17 students, aiding them in completing their weekly assignments in website and mobile programming',
+          'Instructed website programming encompassing Prototyping, HTML, CSS, JS, jQuery, Ajax, Python, Django, and Test-Driven Development (TDD)',
+          'Conducted beginner-level instruction in mobile programming, focusing on Flutter fundamentals such as layout design, form handling, and data fetching',
+        ],
+      },
+      {
+        course: 'Teaching Assistant of Basics of Computer Architecture',
+        date: 'Feb 2021 - Jul 2021',
+        description: [
+          'Conducted weekly hour-long lectures for up to 100 students on the subject of Computer Architecture',
+          'Instructed, assessed, demonstrated, and crafted questions related to the fundamentals of computer systems and the interaction of computer components',
+        ],
+      },
+    ],
+  },
 ];
 
 export default data;
