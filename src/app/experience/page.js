@@ -34,7 +34,7 @@ const Experience = () => {
   return (
     <main className="py-10 px-8 sm:px-16 lg:px-22 xl:px-44">
       <div className="flex flex-col md:flex-row gap-8 md:gap-16">
-        <div className="flex md:min-w-fit md:w-[20%] flex-row md:flex-col gap-4 pt-2 w-full max-w-full overflow-auto pb-4">
+        <div className="flex md:min-w-fit md:w-[20%] flex-row md:flex-col gap-2 md:gap-4 pt-2 w-full max-w-full overflow-auto pb-4">
           <ListCompany />
         </div>
         {active === data.length - 1 ? (
