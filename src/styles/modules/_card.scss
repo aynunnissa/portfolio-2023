@@ -1,0 +1,35 @@
+@layer components {
+    .card {
+        @apply bg-white p-6 rounded shadow-md shadow-slate-200 h-fit;
+
+        .card-image {
+            @apply mb-2 w-full h-[250px];
+
+            &.lg {
+                @apply h-[300px];
+            }
+            
+            img {
+                @apply rounded w-full h-full object-cover;
+            }
+        }
+
+        .card-header {
+            .card-title {
+                @apply font-semibold text-xl;
+            }
+    
+            .card-subtitle {
+                @apply font-semibold text-gray-700 text-[12px];
+            }
+        }
+
+        .card-body {
+            @apply mt-4 text-[14px];
+        }
+
+        .card-action {
+            @apply mt-2 flex gap-2 items-center;
+        }
+    }
+}

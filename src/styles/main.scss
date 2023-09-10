@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './modules/modules';
+@import './partials/variables';
+
+.homepage {
+    min-height: calc(100vh - 80px);
+}
