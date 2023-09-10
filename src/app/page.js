@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -6,8 +7,8 @@ export default function Home() {
       <div className="w-full flex justify-center items-center flex-col-reverse md:flex-row gap-16">
         <div className="flex-1">
           <div>
-            <p className="text-2xl font-medium mb-4">Hi, welcome!</p>
-            <h1 className="text-[42px] font-bold">
+            <p className="text-lg sm:text-2xl font-medium mb-4">Hi, welcome!</p>
+            <h1 className="text-[24px] sm:text-[42px] font-bold">
               {`I'm`} Aynun Nissa
               <br />A{' '}
               <span className="text-blue-primary">Software Engineer</span>
@@ -22,11 +23,14 @@ export default function Home() {
             </p>
           </div>
           <div className="mt-12 flex items-center gap-5">
-            <button className="btn btn-md btn-primary text-white">
+            <Link
+              href="/experience"
+              className="btn btn-md btn-primary text-white"
+            >
               <i class="bi bi-airplane-fill mr-2 rotate-45"></i>Explore
-            </button>
+            </Link>
             <a
-              href=""
+              href="https://drive.google.com/file/d/1e5MHpH8d1q9IWVgZzMKe7hWm0YTOvvZz/view?usp=sharing"
               target="_blank"
               className="text-blue-primary hover:text-blue-600"
             >
