@@ -30,7 +30,7 @@ export default function Home() {
               <i class="bi bi-airplane-fill mr-2 rotate-45"></i>Explore
             </Link>
             <a
-              href="https://drive.google.com/file/d/1e5MHpH8d1q9IWVgZzMKe7hWm0YTOvvZz/view?usp=sharing"
+              href="https://drive.google.com/file/d/18KYKSDGkxGQfwprSM0zANN9AOT90xpzm/view?usp=sharing"
               target="_blank"
               className="text-blue-primary hover:text-blue-600"
             >
@@ -42,8 +42,8 @@ export default function Home() {
           <Image
             src="/main/me.svg"
             alt="Header icon"
-            width={300}
-            height={300}
+            width={400}
+            height={400}
             priority
           />
         </div>
